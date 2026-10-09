@@ -1,0 +1,85 @@
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 50px;
+    gap: 20px;
+}
+
+.logo img {
+    width: 60px;
+    height: auto;
+}
+
+.nama h3 {
+    color: white;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+     justify-content: flex-end;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+.perusahaan {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+}
+
+.tentang,
+.gambar {
+    width: 50%;
+    height: 250px;
+    border: 2px solid #333;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.tentang {
+    text-align: center;
+}
+
+.tentang h2 {
+    margin-top: 60px;
+}
+
+.gambar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gambar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* CSS FOOTER */
+    .footer {
+      background-color: #f8f9fa; /* Warna latar belakang abu-abu terang */
+      border-top: 1px solid #dee2e6; /* Garis tipis di atas footer */
+      padding: 20px 0; /* Jarak atas-bawah di dalam footer */
+      text-align: center; /* Teks di tengah */
+      font-family: Arial, sans-serif;
+      color: #6c757d; /* Warna teks abu-abu */
+      margin-top: 50px; /* Jarak footer dari konten di atasnya */
+    }
+
+    .footer p {
+      margin: 0 0 8px 0; /* Jarak bawah paragraf */
+      font-size: 14px;
+    }
+
+    .footer small {
+      font-size: 12px;
+    }
